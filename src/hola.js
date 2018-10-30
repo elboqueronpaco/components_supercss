@@ -1,2 +1,2 @@
-const hola = hola
+const hola = "hola a todos"
 export default hola
