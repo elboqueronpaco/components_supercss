@@ -5,11 +5,7 @@ const HtmlWebpackPlugin = require ('html-webpack-plugin'),
     {VueLoaderPlugin} = require ('vue-loader')
 module.exports = {
     entry:{
-        js: './src/index.js',
-        vanilla: './src/vanilla.js',
-        react: './src/app.js',
-        vue: './src/vue.js',
-        ts: './src/ts.js'
+        js: './src/index.js'
     } ,
     output: {
         filename: '[name].[chunkhash].js'
@@ -99,26 +95,6 @@ module.exports = {
             template: './src/template.html',
             filename: 'index.html',
             chunks: ['js']
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/template.html',
-            filename: 'vanilla.html',
-            chunks: ['vanilla']
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/template.html',
-            filename: 'react.html',
-            chunks: ['react']
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/template.html',
-            filename: 'vue.html',
-            chunks: ['vue']
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/template.html',
-            filename: 'ts.html',
-            chunks: ['ts']
         })
     ]
 }

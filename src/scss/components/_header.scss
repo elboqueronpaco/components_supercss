@@ -1,0 +1,9 @@
+.Header{
+    height: $height-header;
+    border-bottom: thin solid $border-color;
+    &-container{
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+}

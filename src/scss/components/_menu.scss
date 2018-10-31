@@ -1,12 +1,56 @@
 .Menu{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    @include from (l) {
+        flex-direction: row;
+    }
+    &-item{
+        padding: .5rem 0 .5rem 1rem;
+    }
     &-link{
-        color: white;
         text-decoration: none;
+        color: $color-text;
+        margin-left: 2rem;
         transition: all .3s ease;
+        @include from (l) {
+            color: $color-link;
+        }
         &:hover{
             opacity: .8;
         }
+    }
+    &-toggle{
+        width: 2.2rem;
+        height: 1.6rem;
+        background: linear-gradient($color-link 20%, transparent 20%, transparent 40%, $color-link 40%,$color-link 60%, transparent 60%, transparent 80%, $color-link 80%);
+        cursor: pointer;
+        z-index: var(--z-modal);
+        @include from(l){
+            display: none;
+        }
+    }
+}
+.Navmenu{
+    position: fixed;
+    height: calc(100vh - #{$height-header});
+    width: 80vw;
+    background-color: #fff;
+    top: $height-header;
+    right: -80vw;
+    z-index: var(--z-fixed);
+    transition: all .3s ease;
+    @include from(l){
+        position: static;
+        background-color: transparent;
+        padding-top: 0;
+        height: auto;
+        width: auto;
+    }
+    &.show{
+        right: 0;
     }
 }

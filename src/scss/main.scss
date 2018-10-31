@@ -1,10 +1,12 @@
 @import './raleway';
+@import './config/variable';
+@import './config/mixions';
+@import './layout/layout';
+@import './components/header';
+@import './components/logo';
 @import './components/menu';
 html{
     font-family: 'Raleway', sans-serif;
     background-color: black;
     color: whitesmoke;
-}
-#app{
-    * { margin: 2rem auto; }
 }
