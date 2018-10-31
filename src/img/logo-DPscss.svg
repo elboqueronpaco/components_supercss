@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 41.2 17.9" style="enable-background:new 0 0 41.2 17.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#0204AE;}
+	.st2{fill:#00627F;}
+	.st3{fill:none;}
+	.st4{fill:#DC0D2D;}
+	.st5{fill:#B9872E;}
+	.st6{fill:#431A5D;}
+	.st7{fill:#008A00;}
+	.st8{fill:#CC0E28;}
+	.st9{font-family:'MyriadPro-Regular';}
+	.st10{font-size:9.8982px;}
+</style>
+<rect x="1.1" y="0.9" class="st0" width="39" height="16"/>
+<g>
+	<g>
+		<path class="st1" d="M2,2"/>
+		<rect x="2.1" y="1.9" class="st2" width="10" height="3"/>
+		<rect x="2.1" y="13.9" class="st2" width="10" height="2"/>
+		<rect x="2.1" y="4.9" class="st3" width="7" height="6"/>
+		<rect x="2.1" y="4.9" class="st4" width="4" height="3"/>
+		<rect x="2.1" y="7.9" class="st5" width="3" height="6"/>
+		<rect x="5.1" y="7.9" class="st6" width="1" height="6"/>
+		<rect x="6.1" y="4.9" class="st7" width="3" height="11"/>
+		<rect x="9.1" y="1.9" class="st8" width="3" height="12"/>
+	</g>
+	<text transform="matrix(1 0 0 1 12.2498 13.1992)"><tspan x="0" y="0" class="st2 st9 st10">DP</tspan><tspan x="11.9" y="0" class="st8 st9 st10">scss</tspan></text>
+</g>
+</svg>

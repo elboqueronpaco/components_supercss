@@ -1,0 +1,10 @@
+@import './raleway';
+@import './components/menu';
+html{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+#app{
+    * { margin: 2rem auto; }
+}

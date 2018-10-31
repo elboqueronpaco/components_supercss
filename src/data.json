@@ -1,0 +1,25 @@
+{
+    "name": "Webpack",
+    "links": [
+        [
+            "Webpack",
+            "index.html"
+        ],
+        [
+            "Vanilla JS",
+            "vanilla.html"
+        ],
+        [
+            "React",
+            "react.html"
+        ],
+        [
+            "Vue JS",
+            "vue.html"
+        ],
+        [
+            "TyeScript",
+            "ts.html"
+        ]
+    ]
+}
