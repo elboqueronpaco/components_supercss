@@ -1,11 +1,12 @@
 import Logo from './Logo'
 import NavMenu from './Menu'
+import { d } from '../helpers/helpers'
 
-const d = document,
-    Header = d.createElement('header'),
+const Header = d.createElement('header'),
     HeaderContainer = d.createElement('div'),
     MenuToggle = d.createElement('div')
 Header.classList.add('Header')
+Header.classList.add('Layout-header')
 HeaderContainer.classList.add('Header-container')
 HeaderContainer.classList.add('Layout-container')
 MenuToggle.classList.add('Menu-toggle')

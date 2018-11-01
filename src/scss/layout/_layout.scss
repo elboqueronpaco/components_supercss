@@ -1,3 +1,13 @@
+.Main-container{
+    min-height: 100vh;
+    display: grid;
+    grid-template: {
+        columns: 100%;
+        rows: $height-header auto $height-header;
+        areas: 'header' 'main' 'footer'; 
+    }
+    grid-gap: 1.5rem
+}
 .Layout{
     &-container{
         max-width: $max-width;
@@ -7,4 +17,14 @@
         margin-right: auto;
         display: flex;
     }
+    &-header{
+        grid-area: header;
+    }
+    &-main{
+        grid-area: main;
+    }
+    &-footer{
+        grid-area: footer;
+    }
 }
+

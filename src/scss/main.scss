@@ -5,8 +5,18 @@
 @import './components/header';
 @import './components/logo';
 @import './components/menu';
+@import './components/footer';
 html{
     font-family: 'Raleway', sans-serif;
     background-color: black;
     color: whitesmoke;
+}
+body{
+    &.show{
+        transform: translate(80vw);
+        overflow: hidden;
+    }
+    &.overflow{
+        overflow: hidden;
+    }
 }

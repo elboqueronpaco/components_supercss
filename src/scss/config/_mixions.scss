@@ -9,3 +9,27 @@
         }
     }
 }
+@mixin toggle-direction($dir, $size,$header) {
+    @if $dir == left{
+        top: - $header;
+        left: - $size;
+        transform: scale(0);
+        transform-origin: top;
+        opacity: 0;
+        @include from(l){
+            transform: scale(1);
+            opacity: 1;
+        }
+        &.show{
+            top: $header;
+            left: 0;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }@else if $dir == right{
+        right: - $size;
+        &.show{
+            right: 0;
+        }
+    }
+}

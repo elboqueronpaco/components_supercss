@@ -37,10 +37,9 @@
 .Navmenu{
     position: fixed;
     height: calc(100vh - #{$height-header});
-    width: 80vw;
+    width: $width-togglet;
     background-color: #fff;
-    top: $height-header;
-    right: -80vw;
+    @include toggle-direction(left, $width-togglet,$height-header);
     z-index: var(--z-fixed);
     transition: all .3s ease;
     @include from(l){
@@ -50,7 +49,5 @@
         height: auto;
         width: auto;
     }
-    &.show{
-        right: 0;
-    }
+    
 }

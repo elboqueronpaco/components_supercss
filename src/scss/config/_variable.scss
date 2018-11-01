@@ -1,5 +1,6 @@
 $max-width : 1200px;
 $height-header: 4rem;
+$width-togglet: 80vw;
 $border-color: #ccc;
 $color-text: rgba(0, 0, 0, 0.637);
 $color-link: rgba(83, 252, 5, 0.637);
@@ -7,3 +8,12 @@ $color-link: rgba(83, 252, 5, 0.637);
 $breakpoints:(
     l: 960px
 );
+
+//Variable de apilamiento (z-index)
+:root{
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal:1000;
+}
